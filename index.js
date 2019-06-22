@@ -29,7 +29,7 @@ const contractSource = `
       put(state{ memes = updatedMemes })
 `;
 
-const contractAddress = 'ct_S4QifMaz1rsLQJajH1qPAbrdyoYskCfmGTjGPRE6MjyxdYjQE';
+const contractAddress = 'ct_6hEu2wmxMB5UbPqvtw3YYqohNEa54wDn6XKXQtV5XqTWVKrZ7';
 var client = null;
 var memeArray = [];
 var memesLength = 0;
