@@ -32,6 +32,8 @@ img{
 .inputForm{
   margin-top: 2em;
   margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 .btn{
