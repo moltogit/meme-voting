@@ -1,4 +1,4 @@
-const contractSource = '
+const contractSource = ´
   contract MemeVote =
   record meme =
     { creatorAddress : address,
@@ -33,7 +33,8 @@ const contractSource = '
     let updatedVoteCount = meme.voteCount + Call.value
     let updatedMemes = state.memes{ [index].voteCount = updatedVoteCount }
     put(state { memes = updatedMemes })
-';
+´;
+
 const contractAddress = 'ct_S4QifMaz1rsLQJajH1qPAbrdyoYskCfmGTjGPRE6MjyxdYjQE';
 var client = null;
 var memeArray = [];
